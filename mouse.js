@@ -1,4 +1,4 @@
-/* 
+
 // "instance mode" 
 const s = ( p ) => {
 
@@ -21,7 +21,7 @@ p.windowResized = function(){
   p.resizeCanvas(p.windowWidth, p.windowHeight);
 }
 }
-let myp5 = new p5(s, 'myContainer'); */
+let myp5 = new p5(s, 'myContainer'); 
 
 
 // Q: How do we instanciate when parameters are in place?
